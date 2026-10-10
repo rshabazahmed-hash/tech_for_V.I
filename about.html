@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Tech for V.I.</title>
+    <meta name="description" content="Learn about Tech for V.I., our mission and our commitment to accessible technology.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header>
+        <div class="container header-inner">
+            <a class="brand" href="index.html" aria-label="Tech for V.I. home">Tech for V.I.</a>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" aria-current="page">About Us</a></li>
+                    <li><a href="projects.html">Our Projects</a></li>
+                    <li><a href="updates.html">Updates</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="main-content">
+        <section aria-labelledby="about-heading">
+            <div class="container">
+                <h1 id="about-heading">About Tech for V.I.</h1>
+                <p class="section-intro">Tech for V.I. is a technology initiative focused on accessibility, independence and digital inclusion. Our goal is to encourage the visually impaired community to explore technology, learn new skills and benefit from useful software.</p>
+                <h2>Our mission</h2>
+                <ul>
+                    <li>Encourage independence through technology.</li>
+                    <li>Share useful and accessible software projects.</li>
+                    <li>Support screen-reader-friendly computing.</li>
+                    <li>Promote learning, creativity and collaboration.</li>
+                    <li>Make technology more accessible to everyone.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p><strong>Tech for V.I.</strong></p>
+            <p>Empowering the V.I. Community Through Technology.</p>
+            <p>Built with accessibility and inclusion in mind.</p>
+            <p>&copy; <span id="current-year">2026</span> Tech for V.I. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
