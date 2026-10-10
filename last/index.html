@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Tech for V.I.</title>
+    <meta name="description" content="Tech for V.I. shares accessible technology, software, learning tools and projects for the visually impaired community.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header>
+        <div class="container header-inner">
+            <a class="brand" href="index.html" aria-label="Tech for V.I. home">Tech for V.I.</a>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html" aria-current="page">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="projects.html">Our Projects</a></li>
+                    <li><a href="updates.html">Updates</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="main-content">
+        <section class="hero" aria-labelledby="welcome-heading">
+            <div class="container">
+                <h1 id="welcome-heading">Welcome to Tech for V.I.</h1>
+                <p><strong>Empowering the V.I. Community Through Technology — Explore, Learn, and Achieve Together.</strong></p>
+                <p>Discover accessible software, useful digital tools and technology projects designed to make computing more inclusive for people with visual impairments.</p>
+                <a class="button" href="projects.html">Explore Our Projects</a>
+                <a class="button button-secondary" href="about.html">About Tech for V.I.</a>
+            </div>
+        </section>
+        <section aria-labelledby="welcome-more-heading">
+            <div class="container">
+                <h2 id="welcome-more-heading">Technology that includes everyone</h2>
+                <p class="section-intro">Tech for V.I. is a technology initiative focused on accessibility, independence and digital inclusion. Explore our projects, learn about our mission, and get in touch with the team.</p>
+                <div class="cards">
+                    <article class="card">
+                        <h3>About Us</h3>
+                        <p>Learn about our mission to encourage independence and digital inclusion through accessible technology.</p>
+                        <a href="about.html">Read about us</a>
+                    </article>
+                    <article class="card">
+                        <h3>Our Projects</h3>
+                        <p>Explore accessible applications and technology projects created to support the V.I. community.</p>
+                        <a href="projects.html">Explore projects</a>
+                    </article>
+                    <article class="card">
+                        <h3>Latest Updates</h3>
+                        <p>Find project news, improvements and release announcements.</p>
+                        <a href="updates.html">View updates</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p><strong>Tech for V.I.</strong></p>
+            <p>Empowering the V.I. Community Through Technology.</p>
+            <p>Built with accessibility and inclusion in mind.</p>
+            <p>&copy; <span id="current-year">2026</span> Tech for V.I. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
